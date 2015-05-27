@@ -112,7 +112,7 @@ def cutArray(array, length):
     return array[0:length-1]
 
 def addLetterArray(array):
-    number = int(len(array)/16)*20 + 97
+    number = int(len(array)/16*10 + 97)
     array.append(chr(number))
     array.append(chr(number+2))
     array.append(chr(number+2))
